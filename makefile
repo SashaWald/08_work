@@ -6,3 +6,6 @@ main.o: main.c mystring.h
 
 mystring.o: mystring.h mystring.c
 	gcc -c mystring.c
+	
+run:
+	./main
